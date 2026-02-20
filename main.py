@@ -6,7 +6,7 @@ class Window(QMainWindow):
 
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("My First PyQt5 Window")
+        self.setWindowTitle("Ma premiere fenetre")
         self.resize(400, 300)
 
 
