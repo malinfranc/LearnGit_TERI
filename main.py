@@ -6,7 +6,7 @@ class Window(QMainWindow):
 
     def __init__(self):
         super().__init__()
-        #self.setWindowTitle("Ma premiere fenetre")
+        self.setWindowTitle("Ma premiere fenetre")
         
 
 if __name__ == "__main__":
