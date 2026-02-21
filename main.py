@@ -8,9 +8,8 @@ class Window(QMainWindow):
         super().__init__()
         self.setWindowTitle("Tu es fou")
         self.geometry()
-        self.resize(40, 0)
-
-
+        self.resize(500, 500)
+        
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     Fen = Window()
