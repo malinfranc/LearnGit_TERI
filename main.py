@@ -8,6 +8,7 @@ class Window(QMainWindow):
         super().__init__()
         self.setWindowTitle("Ma premiere fenetre")
         self.geometry()
+        self.resize(500, 500)
         
 
 if __name__ == "__main__":
