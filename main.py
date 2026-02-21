@@ -6,9 +6,9 @@ class Window(QMainWindow):
 
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("merde")
+        self.setWindowTitle("Tu es fou")
         self.geometry()
-        self.resize(400, 300)
+        self.resize(40, 0)
 
 
 if __name__ == "__main__":
