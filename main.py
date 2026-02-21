@@ -6,9 +6,10 @@ class Window(QMainWindow):
 
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Ma premiere fenetre")
+        self.setWindowTitle("Tu es fou")
         self.geometry()
-        
+        self.resize(40, 0)
+
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
